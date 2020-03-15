@@ -1,3 +1,7 @@
 class School
-  def initialize
+  attr_accessor :School
+  
+  def initialize(school)
+    @school = school
+  end
 end
